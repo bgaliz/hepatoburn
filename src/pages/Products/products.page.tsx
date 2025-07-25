@@ -2,7 +2,6 @@ import Image from "next/image";
 import HepatoBurnImage from "@/assets/img/HepatoBurn-1.png";
 
 export const ProductsPage = () => {
-
     return (
         <div className="flex relative mx-auto my-10 p-6 rounded-xl shadow-lg">
             <Image width={300} height={300} src={HepatoBurnImage} alt="HEPATOBURN" />

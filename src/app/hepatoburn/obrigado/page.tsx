@@ -13,7 +13,7 @@ export default function ObrigadoPage() {
         <span>Parâmetros UTM capturados:</span>
         <ul>
           {searchParams &&
-            Array.from(searchParams.entries()).map(([key, value]) => (
+            Array.from(searchParams.entries()).map(([key]) => (
               <li key={key} className="flex items-center gap-2">
                 <span className="font-semibold">{key}</span>
               </li>
