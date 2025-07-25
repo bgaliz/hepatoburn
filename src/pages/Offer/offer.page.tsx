@@ -4,7 +4,7 @@ import HepatoBurn2 from "@/assets/img/HepatoBurn-2.png";
 import HepatoBurn3 from "@/assets/img/HepatoBurn-3.png";
 import { ButtonCTA } from "@/components/button/button.component";
 
-export default function HepatoBurnOffer() {
+const HepatoBurnOffer = () => {
   return (
     <section className="bg-[#171717] flex flex-col items-center py-10 px-4">
       <h2 className="text-4xl font-bold text-red-700 mb-2 text-center">OFERTA ESPECIAL DE LANÇAMENTO!</h2>
@@ -44,3 +44,5 @@ export default function HepatoBurnOffer() {
     </section>
   );
 }
+
+export default HepatoBurnOffer;

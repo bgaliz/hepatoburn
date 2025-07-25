@@ -1,4 +1,4 @@
-export const Depoiment = () => {
+const Depoiment = () => {
     return (
         <div className="flex flex-col">
             <h1 className="text-2xl mt-18">Comentário dos Clientes</h1>
@@ -20,3 +20,5 @@ export const Depoiment = () => {
         </div>
     )
 }
+
+export default Depoiment;

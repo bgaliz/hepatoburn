@@ -1,7 +1,7 @@
 import { ButtonCTA } from "@/components/button/button.component"
 import { VideoComponent } from "@/components/video/video.component"
 
-export const HomePage = () => {
+const HomePage = () => {
     return (
         <div className="flex flex-col items-center justify-center w-full h-full gap-20">
             <div>
@@ -16,3 +16,5 @@ export const HomePage = () => {
         </div>
     )
 }
+
+export default HomePage;
