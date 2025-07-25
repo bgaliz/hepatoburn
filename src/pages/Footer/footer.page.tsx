@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export const FooterPage = () => {
+const FooterPage = () => {
     return (
         <footer className="w-full bg-gray-200 py-6 mt-12 text-center border-t">
             <p className="text-xs text-gray-500 mb-2">Este produto é um suplemento alimentar. Consulte um médico antes de iniciar qualquer tratamento. Resultados podem variar.</p>
@@ -11,3 +11,6 @@ export const FooterPage = () => {
         </footer>
     )
 }
+
+
+export default FooterPage;
