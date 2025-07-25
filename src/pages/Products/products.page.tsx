@@ -5,8 +5,8 @@ const ProductsPage = () => {
     return (
         <div className="flex flex-col md:flex-row relative mx-auto my-10 p-6 rounded-xl shadow-lg max-w-4xl w-full items-center">
             <Image
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 src={HepatoBurnImage}
                 alt="HEPATOBURN"
                 className="mx-auto mb-6 md:mb-0 md:mr-6 flex-shrink-0"
