@@ -42,7 +42,7 @@ Este é um site desenvolvido em Next.js e Tailwind CSS para apresentar e vender 
 
 O projeto está disponível publicamente em:
 
-👉 [https://hepatoburn-vercel.app](https://hepatoburn-vercel.app)
+👉 [https://hepatoburn-iota.vercel.app](https://hepatoburn-iota.vercel.app)
 
 ## Estrutura do Projeto
 - `src/app` - Páginas principais do site
