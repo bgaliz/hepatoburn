@@ -61,5 +61,29 @@ O projeto está disponível publicamente em:
 - Página de obrigado personalizada
 - Métricas de performance otimizadas (Lighthouse)
 
+## Decisões Técnicas
+- Utilização do Next.js para SSR/SSG, garantindo performance e SEO.
+- Tailwind CSS para estilização rápida, responsiva e consistente.
+- Componentização para facilitar manutenção e reuso (ex: botão CTA, cards de depoimento, vídeo).
+- Captura e repasse de UTMs via query string para rastreamento de campanhas.
+- Estrutura de pastas organizada para escalabilidade.
+
+## Estratégias de Otimização Implementadas
+- Imagens otimizadas com o componente `next/image`.
+- Layout responsivo usando Tailwind CSS.
+- Utilização de Suspense para carregamento de dados client-side.
+- Minimização de JavaScript e CSS no build de produção.
+- Uso de links internos para navegação rápida sem reload.
+
+## Métricas do Lighthouse
+O projeto foi avaliado com o Lighthouse e obteve os seguintes resultados:
+
+- **Performance:** 92
+- **Acessibilidade:** 94
+- **Boas Práticas:** 78
+- **SEO:** 100
+
+<img src="./src/assets/img/lighthouse-metrics.png" alt="Lighthouse Metrics" width="400" />
+
 ## Licença
 Este projeto é apenas para fins demonstrativos e não representa uma oferta real de produto.
